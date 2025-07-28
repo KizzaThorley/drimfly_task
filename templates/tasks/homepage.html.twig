@@ -1,3 +1,5 @@
+{% extends 'base.html.twig' %}
+{% block body %}
 <div class="max-w-md mx-auto mt-8">
 <h2 class="text-xl font-bold mb-4">Task Tracker</h2>
 <form method="POST" action="/tasks" class="mb-4 flex">
@@ -17,3 +19,4 @@
 </li>
 </ul>
 </div>
+{% endblock %}
